@@ -92,9 +92,10 @@ DATABASES = {
         "PORT": 27017,
         "USER": "root",
         "PASSWORD": "password",
+        "ENFORCE_SCHEMA": False
+        # 'ENFORCE_SCHEMA': True,
         # 'AUTH_SOURCE': 'db-name',
         # 'AUTH_MECHANISM': 'SCRAM-SHA-1',
-        # 'ENFORCE_SCHEMA': True,
     }
 }
 
