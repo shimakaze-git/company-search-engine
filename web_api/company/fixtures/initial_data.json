@@ -1,0 +1,80 @@
+[
+  {
+    "model": "company.company",
+    "pk": 1,
+    "fields": {
+      "name": "GMOインターネット株式会社",
+      "name_kana": "ジーエムオーインターネット",
+      "description": "",
+      "corporate_name": 6011001029526,
+      "foundation_date": "1991-1-1",
+      "address": "東京都渋谷区桜丘町26-1",
+      "url": "https://www.gmo.jp/"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 2,
+    "fields": {
+      "name": "ＧＲＯＯＶＥ　Ｘ株式会社",
+      "name_kana": "グルーヴエックス",
+      "description": "",
+      "corporate_name": 7011001108056,
+      "foundation_date": "2015-11-2",
+      "address": "東京都中央区日本橋浜町3-42-3",
+      "url": "https://groove-x.com/"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 3,
+    "fields": {
+      "name": "一般社団法人Ｐｙｔｈｏｎエンジニア育成推進協会",
+      "name_kana": "ぱいそんえんじにあいくせいすいしんきょうかい",
+      "description": "",
+      "corporate_name": 3010905003242,
+      "foundation_date": "2016-6-29",
+      "address": "東東京都世田谷区鎌田2-14-9",
+      "url": "https://www.pythonic-exam.com/"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 4,
+    "fields": {
+      "name": "Ｅｎｔｈｏｕｇｈｔ合同会社",
+      "name_kana": "えんそうと",
+      "description": "",
+      "corporate_name": 8010403019067,
+      "foundation_date": "2015-11-2",
+      "address": "東京都港区海岸1-2-20 汐留ビルディング３F",
+      "url": "https://www.enthought.com/"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 5,
+    "fields": {
+      "name": "株式会社ＳＱＵＥＥＺＥ",
+      "name_kana": "スクイーズ",
+      "description": "",
+      "corporate_name": 6010401113988,
+      "foundation_date": "2014-9-1",
+      "address": "東京都港区北青山3-3-7",
+      "url": "https://squeeze-inc.co.jp/"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 6,
+    "fields": {
+      "name": "アイシン精機株式会社",
+      "name_kana": "アイシンセイキ",
+      "description": "",
+      "corporate_name": 6180301013611,
+      "foundation_date": "1965-8-31",
+      "address": "愛知県刈谷市朝日町2-1",
+      "url": "http://www.aisin.co.jp/"
+    }
+  }
+]
