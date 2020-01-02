@@ -40,7 +40,11 @@ INSTALLED_APPS = [
 ]
 
 INSTALLED_APPS += [
-    'company'
+    # apps
+    'company',
+
+    # thirdparty
+    'django_extensions'
 ]
 
 MIDDLEWARE = [
@@ -83,6 +87,24 @@ WSGI_APPLICATION = "config.wsgi.application"
 #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #     }
 # }
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+        # 'rest_framework.permissions.AllowAny',
+    ],
+    'DEFAULT_RENDERER_CLASSES': [
+        'djangorestframework_camel_case.render.CamelCaseJSONRenderer',
+        # 'rest_framework.renderers.JSONRenderer',
+        # 'djangorestframework_camel_case.render.CamelCaseBrowsableAPIRenderer',
+        # 'rest_framework.renderers.BrowsableAPIRenderer',
+    ],
+    'DEFAULT_PARSER_CLASSES': [
+        'djangorestframework_camel_case.parser.CamelCaseFormParser',
+        'djangorestframework_camel_case.parser.CamelCaseMultiPartParser',
+        'djangorestframework_camel_case.parser.CamelCaseJSONParser',
+    ]
+}
 
 DATABASES = {
     "default": {
