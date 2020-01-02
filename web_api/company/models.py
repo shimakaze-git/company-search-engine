@@ -45,7 +45,7 @@ class Company(models.Model):
         default=0
     )
 
-    foundation_date = models.DateTimeField(
+    foundation_date = models.DateField(
         verbose_name="設立年月日",
         blank=True,
         null=True
