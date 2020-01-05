@@ -427,6 +427,14 @@ python-versions = "*"
 version = "0.3.1"
 
 [[package]]
+category = "main"
+description = "Pythonic task execution"
+name = "invoke"
+optional = false
+python-versions = "*"
+version = "1.4.0"
+
+[[package]]
 category = "dev"
 description = "Simple immutable types for python."
 name = "itypes"
@@ -727,6 +735,17 @@ version = "2.8.1"
 six = ">=1.5"
 
 [[package]]
+category = "dev"
+description = "Add .env support to your django/flask apps in development and deployments"
+name = "python-dotenv"
+optional = false
+python-versions = "*"
+version = "0.10.3"
+
+[package.extras]
+cli = ["click (>=5.0)"]
+
+[[package]]
 category = "main"
 description = "Python module to handle standardized numbers and codes"
 name = "python-stdnum"
@@ -981,7 +1000,7 @@ test = ["zope.event"]
 testing = ["coverage", "nose", "zope.event"]
 
 [metadata]
-content-hash = "3cde8ee62bb16cfe45d355b3fe50c2ecaaecacd3728c212c72d716b7ed5cd095"
+content-hash = "aa9ffd08ba7f3d500353f27b45d4b4c4ef89dc7dcfbd7c6926e6a6979e218d4f"
 python-versions = "3.7.3"
 
 [metadata.files]
@@ -1166,6 +1185,11 @@ incremental = [
 ]
 inflection = [
     {file = "inflection-0.3.1.tar.gz", hash = "sha256:18ea7fb7a7d152853386523def08736aa8c32636b047ade55f7578c4edeb16ca"},
+]
+invoke = [
+    {file = "invoke-1.4.0-py2-none-any.whl", hash = "sha256:4668a4a594a47f2da2f0672ec2f7b1566f809cebf10bcd95ce2de9ecf39b95d1"},
+    {file = "invoke-1.4.0-py3-none-any.whl", hash = "sha256:e04faba8ea7cdf6f5c912be42dcafd5c1074b7f2f306998992c4bfb40a9a690b"},
+    {file = "invoke-1.4.0.tar.gz", hash = "sha256:ae7b4513638bde9afcda0825e9535599637a3f65bd819a27098356027bb17c8a"},
 ]
 itypes = [
     {file = "itypes-1.1.0.tar.gz", hash = "sha256:c6e77bb9fd68a4bfeb9d958fea421802282451a25bac4913ec94db82a899c073"},
@@ -1387,6 +1411,10 @@ pytest = [
 python-dateutil = [
     {file = "python-dateutil-2.8.1.tar.gz", hash = "sha256:73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c"},
     {file = "python_dateutil-2.8.1-py2.py3-none-any.whl", hash = "sha256:75bb3f31ea686f1197762692a9ee6a7550b59fc6ca3a1f4b5d7e32fb98e2da2a"},
+]
+python-dotenv = [
+    {file = "python-dotenv-0.10.3.tar.gz", hash = "sha256:f157d71d5fec9d4bd5f51c82746b6344dffa680ee85217c123f4a0c8117c4544"},
+    {file = "python_dotenv-0.10.3-py2.py3-none-any.whl", hash = "sha256:debd928b49dbc2bf68040566f55cdb3252458036464806f4094487244e2a4093"},
 ]
 python-stdnum = [
     {file = "python-stdnum-1.12.tar.gz", hash = "sha256:4c1347c414d7bdffb454924998f62c04d907a5c01faff0e35df659b0b52acba5"},
